@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Incendeia-me</title>
+    <link rel="stylesheet" href="conf.css">
+    <link rel="stylesheet" href="estilhacame.css">
+    <script src="https://kit.fontawesome.com/99451e1fb0.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bubblegum+Sans&family=Jockey+One&family=Nova+Flat&family=Nova+Square&family=Passero+One&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <style>
+        h1, h2{
+            color: #5e8978;
+        }
+
+        button.botao2{
+            background-color: #47696d ;
+        }
+        button.botao2:hover{
+            background-color: #2b4649;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="logo" href="index.html">
+        </div>
+        <div class="menu-icone" onclick="alternarMenu();">
+            <img id="icone" src="menu.png" alt="menu">
+        </div>
+    </header>
+
+    <nav>
+        <ul class="menu">
+            <li><a href="livros.html">Livros</a></li>
+            <li><a href="autora.html">Autora</a></li>
+            <li><a href="sobre.html">Sobre</a></li>
+        </ul>
+    </nav>
+
+    <div class="menu-mobile" id="links">
+        <ul class="menu">
+            <li><a href="livros.html">Livros</a></li>
+            <li><a href="autora.html">Autora</a></li>
+            <li><a href="sobre.html">Sobre</a></li>
+        </ul>
+    </div>
+
+    <main>
+        <div class="menu-botao1">
+            <button>
+                <a href="igniteme.html">
+                    <img src="menu-idiomae.webp" alt="">
+                </a>
+            </button>
+            <div class="submenu">
+                <a href="incendeiame.html">
+                    <img src="menu-idiomap.webp" alt="">
+                </a>
+            </div>
+        </div>
+        <div class="sobre">
+            <div class="livro-img">
+                <img src="incendeiame.webp" alt="">
+            </div>
+            <div class="sobre-livro">
+                <h1>Ignite Me</h1>
+                <p>After the devastation left by the last battle, Juliette finds herself alone, desolate and determined to
+                    overthrow the Reestablishment once and for all. Now more aware of her power, she is
+                    ready to lead the resistance—but the betrayal and losses she faced made her question whether
+                    who can really trust.
+                    While Adam and their shared past become an obstacle, Warner, the man she once
+                    considered his enemy, appears as an unexpected ally. He not only understands her like no one else, but
+                    it also challenges her to embrace her strength and true potential.
+                    With the world on the brink of collapse and everyone's fate in her hands, Juliette must decide who she wants to be.
+                    is and what it is willing to sacrifice to build a new future.</p>
+            </div>
+        </div>
+        <div class="custom-shape-divider-bottom-1732667753">
+            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                <path d="M1200 120L0 16.48 0 0 1200 0 1200 120z" class="shape-fill"></path>
+            </svg>
+        </div>
+        <div class="acesso">
+            <div>
+                <h2>Ler em pdf
+                    <i class="fa-solid fa-file-pdf"></i>:
+                </h2>
+                <a href="igniteme.pdf" target="_blank">
+                    <button class="botao2">PDF</button>
+                </a>
+            </div>
+            <div>
+                <h2>Comprar
+                    <i class="fa-solid fa-basket-shopping"></i>:
+                </h2>
+                <button class="botao2" onclick="location.href='https://www.amazon.com.br/Kit-Estilha%C3%A7a-me-completa-Tahereh-Mafi/dp/6556090662'" target="_blank">Amazon</button>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+    </footer>
+
+    <script src="menu.js">
+    </script>
+</body>
+
+</html>
